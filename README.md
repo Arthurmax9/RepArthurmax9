@@ -4,7 +4,7 @@
 	<title>Captura de Dados</title>
 	<style>
 		body {
-			background-color: darkgreen;
+			background-color: #1a1a2e;
 			color: white;
 			font-family: Arial, sans-serif;
 		}
