@@ -4,7 +4,7 @@
 	<title>Captura de Dados</title>
 	<style>
 		body {
-			background-color: navy;
+			background-color: darkgreen;
 			color: white;
 			font-family: Arial, sans-serif;
 		}
@@ -26,21 +26,23 @@
 		}
 
 		input[type=text], input[type=email], input[type=tel] {
-			width: 100%;
+			width: calc(100% - 24px);
 			padding: 10px;
-			margin-bottom: 20px;
+			margin: 0 0 20px 0;
 			border-radius: 5px;
 			border: none;
 			background-color: rgba(255, 255, 255, 0.7);
 			color: black;
 			font-size: 16px;
 			font-weight: bold;
+			box-sizing: border-box;
 		}
 
 		button[type=submit] {
 			display: block;
-			width: 100%;
+			width: calc(100% - 24px);
 			padding: 10px;
+			margin: 0 0 20px 0;
 			border-radius: 5px;
 			border: none;
 			background-color: #00cc66;
@@ -48,6 +50,7 @@
 			font-size: 16px;
 			font-weight: bold;
 			cursor: pointer;
+			box-sizing: border-box;
 		}
 
 		button[type=submit]:hover {
