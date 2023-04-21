@@ -4,10 +4,7 @@
 	<title>Captura de Dados</title>
 	<style>
 		body {
-			background-image: url('https://example.com/foto.jpg');
-			background-size: cover;
-			background-position: center;
-			background-color: black;
+			background-color: navy;
 			color: white;
 			font-family: Arial, sans-serif;
 		}
@@ -51,6 +48,10 @@
 			font-size: 16px;
 			font-weight: bold;
 			cursor: pointer;
+		}
+
+		button[type=submit]:hover {
+			background-color: #008040;
 		}
 	</style>
 </head>
